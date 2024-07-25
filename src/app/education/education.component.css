@@ -1,0 +1,30 @@
+.container-education{
+    display: flex;
+    gap: 3rem;
+    padding: 10rem 2rem;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    background-image: linear-gradient(to right,#0f0c29,#302b63,#24243e );
+
+    & .text{
+        text-align: center;
+        line-height: 1.5rem;
+        word-break: break-word;
+        line-break: normal;
+        hyphens: auto;
+        overflow-wrap:break-word;
+    
+    }
+
+}
+
+@media (width <= 950px) {
+    .container-education{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap-reverse; 
+        width: 100%;
+    }
+}

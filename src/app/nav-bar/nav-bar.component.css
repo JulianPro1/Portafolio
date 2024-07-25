@@ -1,0 +1,20 @@
+.container-nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: end;
+    padding: 1.5rem;
+    background-image: linear-gradient(to right,#0f0c29,#302b63,#24243e );
+    border-bottom: 1px solid magenta;
+}
+
+.container-list{
+    display: flex;
+    gap: 2rem;
+    padding: 0 1rem;
+
+    & li{
+        color: white;
+        list-style: none;
+    }
+}

@@ -34,7 +34,7 @@
     }
 
     & .center{
-        padding: .5rem;
+        padding: .5rem ;
     }
 
     & :is(.circle,.middle,.center){ border-radius: 50%;}
